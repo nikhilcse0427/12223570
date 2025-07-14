@@ -1,0 +1,21 @@
+{
+  "name": "devsync-ai",
+  "version": "1.0.0",
+  "description": "This is DevSync-AI – AI-Powered Collaborative Chat for Developers",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikhil Verma",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1"
+  }
+}
